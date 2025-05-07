@@ -21,6 +21,3 @@ keyring>=23.0.0  # Required by yagmail
 
 # OpenAI (explicitly listed for version control)
 openai>=1.1.0
-
-# Machine learning dependencies for turn detector
-torch>=2.0.0

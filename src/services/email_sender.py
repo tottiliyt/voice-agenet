@@ -10,7 +10,7 @@ from src.utils.logger import logger
 # Load environment variables
 load_dotenv()
 
-def send_appointment_confirmation(patient_name, doctor_name, appointment_time, email="tottiliyt@gmail.com"):
+def send_appointment_confirmation(patient_name, doctor_name, appointment_time, email=None):
     """
     Send an appointment confirmation email using Gmail.
     
@@ -25,10 +25,14 @@ def send_appointment_confirmation(patient_name, doctor_name, appointment_time, e
     """
     yag = None
     try:
-        # Basic email validation
-        if not email or '@' not in email or '.' not in email.split('@')[1]:
-            logger.warning(f"Invalid email address: {email}. Using default instead.")
-            email = "tottiliyt@gmail.com"
+        # Use Assort Health team emails as recipients
+        recipients = ["jeff@assorthealth.com", "connor@assorthealth.com", "cole@assorthealth.com"]
+        
+        # If a specific email is provided, validate and add it
+        if email and '@' in email and '.' in email.split('@')[1]:
+            recipients.append(email)
+        elif email:
+            logger.warning(f"Invalid email address: {email}. Not including in recipients.")
             
         # Get Gmail credentials from environment variables
         gmail_username = os.getenv("GMAIL_USERNAME", "")
@@ -66,14 +70,14 @@ def send_appointment_confirmation(patient_name, doctor_name, appointment_time, e
         # Initialize Yagmail SMTP
         yag = yagmail.SMTP(gmail_username, gmail_password)
         
-        # Send the email
+        # Send the email to all recipients
         yag.send(
-            to=email,
+            to=recipients,
             subject=f"Appointment Confirmation for {safe_patient_name}",
             contents=html_content
         )
         
-        logger.info(f"Appointment confirmation email sent to {email} via Gmail")
+        logger.info(f"Appointment confirmation email sent to {', '.join(recipients)} via Gmail")
         return True
             
     except Exception as e:
