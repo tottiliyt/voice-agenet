@@ -2,6 +2,8 @@
 flask==2.3.3
 python-dotenv==1.0.0
 requests==2.31.0
+asyncio>=3.4.3
+click>=8.0.0
 
 # Twilio for telephony
 twilio==8.5.0
@@ -15,3 +17,13 @@ smartystreets-python-sdk==4.12.1
 
 # Email sending
 yagmail==0.15.293
+keyring>=23.0.0  # Required by yagmail
+
+# OpenAI (explicitly listed for version control)
+openai>=1.1.0
+
+# Database
+sqlite3-utils>=0.1
+
+# Gunicorn for production deployment
+gunicorn>=20.1.0
