@@ -1,0 +1,17 @@
+# Core dependencies
+flask==2.3.3
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Twilio for telephony
+twilio==8.5.0
+
+# LiveKit for voice agent (includes integrations with OpenAI, Deepgram, and ElevenLabs)
+livekit-agents[deepgram,openai,elevenlabs,silero,turn-detector]~=1.0
+livekit-plugins-noise-cancellation~=0.2
+
+# Address validation
+smartystreets-python-sdk==4.12.1
+
+# Email sending
+yagmail==0.15.293

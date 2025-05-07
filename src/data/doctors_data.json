@@ -1,0 +1,186 @@
+{
+  "doctors": [
+    {
+      "name": "Dr. Sarah Johnson",
+      "specialty": "General Practice",
+      "expertise": ["preventive care", "chronic disease management", "women's health"],
+      "available_times": [
+        "Monday 9:00 AM", "Monday 10:30 AM", "Monday 2:00 PM",
+        "Wednesday 9:00 AM", "Wednesday 11:30 AM", "Wednesday 3:30 PM",
+        "Friday 8:30 AM", "Friday 1:00 PM", "Friday 4:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. Michael Chen",
+      "specialty": "General Practice",
+      "expertise": ["geriatric care", "diabetes management", "respiratory conditions"],
+      "available_times": [
+        "Tuesday 8:00 AM", "Tuesday 10:00 AM", "Tuesday 3:30 PM",
+        "Thursday 9:30 AM", "Thursday 1:30 PM", "Thursday 4:00 PM",
+        "Friday 11:00 AM", "Friday 2:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. Robert Williams",
+      "specialty": "General Practice",
+      "expertise": ["family medicine", "mental health", "sports medicine"],
+      "available_times": [
+        "Monday 8:00 AM", "Monday 11:00 AM", "Monday 3:30 PM",
+        "Wednesday 10:00 AM", "Wednesday 1:30 PM", "Wednesday 4:00 PM"
+      ]
+    },
+    {
+      "name": "Dr. Emily Rodriguez",
+      "specialty": "Cardiology",
+      "expertise": ["heart disease", "hypertension", "cardiac rehabilitation"],
+      "available_times": [
+        "Monday 8:30 AM", "Monday 1:30 PM", "Monday 3:00 PM",
+        "Thursday 10:00 AM", "Thursday 2:00 PM", "Thursday 4:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. James Wilson",
+      "specialty": "Cardiology",
+      "expertise": ["arrhythmia", "heart failure", "preventive cardiology"],
+      "available_times": [
+        "Tuesday 9:30 AM", "Tuesday 1:00 PM", "Tuesday 4:00 PM",
+        "Wednesday 8:00 AM", "Wednesday 10:30 AM", "Wednesday 2:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. Lisa Thompson",
+      "specialty": "Dermatology",
+      "expertise": ["acne", "eczema", "skin cancer screening"],
+      "available_times": [
+        "Monday 9:00 AM", "Monday 11:30 AM", "Monday 2:30 PM",
+        "Wednesday 10:00 AM", "Wednesday 1:00 PM", "Wednesday 3:00 PM"
+      ]
+    },
+    {
+      "name": "Dr. David Kim",
+      "specialty": "Dermatology",
+      "expertise": ["psoriasis", "dermatitis", "cosmetic dermatology"],
+      "available_times": [
+        "Tuesday 10:00 AM", "Tuesday 1:30 PM", "Tuesday 3:00 PM",
+        "Thursday 8:30 AM", "Thursday 11:00 AM", "Thursday 2:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. Jennifer Martinez",
+      "specialty": "Orthopedics",
+      "expertise": ["sports injuries", "joint pain", "fractures"],
+      "available_times": [
+        "Tuesday 8:30 AM", "Tuesday 11:00 AM", "Tuesday 2:00 PM",
+        "Thursday 9:00 AM", "Thursday 1:00 PM", "Thursday 3:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. Thomas Brown",
+      "specialty": "Orthopedics",
+      "expertise": ["spine disorders", "joint replacement", "arthritis"],
+      "available_times": [
+        "Monday 10:30 AM", "Monday 2:30 PM", "Monday 4:00 PM",
+        "Friday 9:00 AM", "Friday 11:30 AM", "Friday 2:00 PM"
+      ]
+    },
+    {
+      "name": "Dr. Patricia Lee",
+      "specialty": "Neurology",
+      "expertise": ["headaches", "seizure disorders", "multiple sclerosis"],
+      "available_times": [
+        "Monday 10:00 AM", "Monday 1:00 PM", "Monday 4:00 PM",
+        "Friday 9:30 AM", "Friday 11:30 AM", "Friday 3:00 PM"
+      ]
+    },
+    {
+      "name": "Dr. Richard Taylor",
+      "specialty": "Neurology",
+      "expertise": ["stroke", "neuropathy", "movement disorders"],
+      "available_times": [
+        "Tuesday 9:00 AM", "Tuesday 11:30 AM", "Tuesday 2:30 PM",
+        "Thursday 10:00 AM", "Thursday 1:30 PM", "Thursday 3:00 PM"
+      ]
+    },
+    {
+      "name": "Dr. Susan Garcia",
+      "specialty": "Pediatrics",
+      "expertise": ["newborn care", "childhood development", "vaccinations"],
+      "available_times": [
+        "Tuesday 9:00 AM", "Tuesday 11:30 AM", "Tuesday 2:30 PM",
+        "Thursday 8:30 AM", "Thursday 10:30 AM", "Thursday 3:00 PM"
+      ]
+    },
+    {
+      "name": "Dr. John Miller",
+      "specialty": "Pediatrics",
+      "expertise": ["adolescent medicine", "behavioral issues", "asthma"],
+      "available_times": [
+        "Monday 9:30 AM", "Monday 1:30 PM", "Monday 3:30 PM",
+        "Wednesday 8:30 AM", "Wednesday 11:00 AM", "Wednesday 2:00 PM"
+      ]
+    },
+    {
+      "name": "Dr. Maria Gonzalez",
+      "specialty": "Obstetrics & Gynecology",
+      "expertise": ["prenatal care", "women's health", "fertility"],
+      "available_times": [
+        "Tuesday 8:30 AM", "Tuesday 10:30 AM", "Tuesday 1:30 PM",
+        "Thursday 9:00 AM", "Thursday 11:30 AM", "Thursday 2:00 PM"
+      ]
+    },
+    {
+      "name": "Dr. William Parker",
+      "specialty": "Obstetrics & Gynecology",
+      "expertise": ["gynecologic surgery", "menopause", "family planning"],
+      "available_times": [
+        "Monday 8:00 AM", "Monday 10:00 AM", "Monday 2:00 PM",
+        "Wednesday 9:30 AM", "Wednesday 1:00 PM", "Wednesday 3:00 PM"
+      ]
+    },
+    {
+      "name": "Dr. Elizabeth Wright",
+      "specialty": "Psychiatry",
+      "expertise": ["depression", "anxiety disorders", "PTSD"],
+      "available_times": [
+        "Tuesday 9:00 AM", "Tuesday 11:00 AM", "Tuesday 2:00 PM",
+        "Friday 10:30 AM", "Friday 1:30 PM", "Friday 3:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. Daniel Scott",
+      "specialty": "Psychiatry",
+      "expertise": ["bipolar disorder", "schizophrenia", "addiction medicine"],
+      "available_times": [
+        "Wednesday 8:00 AM", "Wednesday 10:00 AM", "Wednesday 1:00 PM",
+        "Friday 9:00 AM", "Friday 11:00 AM", "Friday 2:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. Karen Adams",
+      "specialty": "Endocrinology",
+      "expertise": ["diabetes", "thyroid disorders", "hormone imbalances"],
+      "available_times": [
+        "Monday 9:00 AM", "Monday 11:30 AM", "Monday 2:30 PM",
+        "Thursday 10:30 AM", "Thursday 1:00 PM", "Thursday 3:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. Andrew Nelson",
+      "specialty": "Gastroenterology",
+      "expertise": ["digestive disorders", "IBS", "liver disease"],
+      "available_times": [
+        "Tuesday 8:30 AM", "Tuesday 11:00 AM", "Tuesday 1:30 PM",
+        "Friday 9:30 AM", "Friday 12:00 PM", "Friday 2:30 PM"
+      ]
+    },
+    {
+      "name": "Dr. Olivia Turner",
+      "specialty": "Rheumatology",
+      "expertise": ["arthritis", "autoimmune disorders", "osteoporosis"],
+      "available_times": [
+        "Wednesday 9:00 AM", "Wednesday 11:30 AM", "Wednesday 2:00 PM",
+        "Friday 10:00 AM", "Friday 1:30 PM", "Friday 3:30 PM"
+      ]
+    }
+  ]
+}

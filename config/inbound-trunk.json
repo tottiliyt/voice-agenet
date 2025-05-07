@@ -1,0 +1,7 @@
+{
+    "trunk": {
+      "name": "Assort Health Inbound Trunk",
+      "auth_username": "assort_health_agent",
+      "auth_password": "414414"
+    }
+}
