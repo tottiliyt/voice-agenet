@@ -21,9 +21,3 @@ keyring>=23.0.0  # Required by yagmail
 
 # OpenAI (explicitly listed for version control)
 openai>=1.1.0
-
-# Database
-sqlite3-utils>=0.1
-
-# Gunicorn for production deployment
-gunicorn>=20.1.0
