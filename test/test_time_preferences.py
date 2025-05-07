@@ -6,7 +6,11 @@ import sys
 import logging
 import asyncio
 import sqlite3
+from pathlib import Path
 from dotenv import load_dotenv
+
+# Add the parent directory to the Python path
+sys.path.append(str(Path(__file__).parent.parent))
 
 # Load environment variables
 load_dotenv()
@@ -19,8 +23,8 @@ logging.basicConfig(
 )
 
 # Import necessary components
-from patient_db import PatientDatabase
-from livekit_agent import AssortHealthAgent
+from src.data.patient_db import PatientDatabase
+from src.agent.livekit_agent import AssortHealthAgent
 
 # Initialize the database
 db = PatientDatabase()

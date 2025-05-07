@@ -5,9 +5,15 @@ This script tests the appointment selection and email notification functionality
 import os
 import logging
 import asyncio
+import sys
+from pathlib import Path
 from dotenv import load_dotenv
-from livekit_agent import AssortHealthAgent
-from patient_db import PatientDatabase
+
+# Add the parent directory to the Python path
+sys.path.append(str(Path(__file__).parent.parent))
+
+from src.agent.livekit_agent import AssortHealthAgent
+from src.data.patient_db import PatientDatabase
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
