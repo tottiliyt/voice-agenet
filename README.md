@@ -1,4 +1,4 @@
-# Assort Health Voice Agent
+# Medical Appointment Voice Agent
 
 A medical appointment scheduling voice agent that allows patients to schedule appointments via phone calls. The agent collects patient information, validates addresses, offers available appointment slots, and sends confirmation emails.
 
